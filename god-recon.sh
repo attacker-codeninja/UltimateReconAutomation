@@ -17,9 +17,6 @@ fi
 if [ ! -d "$url/recon/httprobe" ];then
 	mkdir $url/recon/httprobe
 fi
-if [ ! -d "$url/recon/potential_takeovers" ];then
-	mkdir $url/recon/potential_takeovers
-fi
 if [ ! -d "$url/recon/wayback" ];then
 	mkdir $url/recon/wayback
 fi
